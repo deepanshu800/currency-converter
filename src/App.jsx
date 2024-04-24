@@ -28,11 +28,11 @@ function App() {
   return (
 
     <div
-        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-center"
         style={{ backgroundImage: `url('https://images.pexels.com/photos/259251/pexels-photo-259251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
         )`}}>
 
-        <h1 className='text-2xl font-bold shadow-2xl mb-0 mt-0 hover:subpixel-antialiased'>Currency Converter</h1>
+        <h1 className='text-3xl  font-bold shadow-2xl mb-0 mt-0 hover:subpixel-antialiased'>Currency Converter</h1>
         <div className="w-full">
             <div className="w-full max-w-md mx-auto mb-40  border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
